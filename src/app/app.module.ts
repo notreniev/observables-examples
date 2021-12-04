@@ -11,6 +11,7 @@ import { DebounceTimeComponent } from './operators/debounce-time/debounce-time.c
 import { TakeComponent } from './operators/take/take.component';
 import { MergeMapComponent } from './operators/merge-map/merge-map.component';
 import { ConcatComponent } from './operators/concat/concat.component';
+import { ForkJoinComponent } from './operators/fork-join/fork-join.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ConcatComponent } from './operators/concat/concat.component';
     DebounceTimeComponent,
     TakeComponent,
     MergeMapComponent,
-    ConcatComponent
+    ConcatComponent,
+    ForkJoinComponent
   ],
   imports: [
     BrowserModule,
