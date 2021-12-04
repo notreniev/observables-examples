@@ -9,6 +9,7 @@ import { ShareComponent } from './operators/share/share.component';
 import { SwitchMapComponent } from './operators/switch-map/switch-map.component';
 import { DebounceTimeComponent } from './operators/debounce-time/debounce-time.component';
 import { TakeComponent } from './operators/take/take.component';
+import { MergeMapComponent } from './operators/merge-map/merge-map.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TakeComponent } from './operators/take/take.component';
     ShareComponent,
     SwitchMapComponent,
     DebounceTimeComponent,
-    TakeComponent
+    TakeComponent,
+    MergeMapComponent
   ],
   imports: [
     BrowserModule,
