@@ -10,6 +10,7 @@ import { SwitchMapComponent } from './operators/switch-map/switch-map.component'
 import { DebounceTimeComponent } from './operators/debounce-time/debounce-time.component';
 import { TakeComponent } from './operators/take/take.component';
 import { MergeMapComponent } from './operators/merge-map/merge-map.component';
+import { ConcatComponent } from './operators/concat/concat.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MergeMapComponent } from './operators/merge-map/merge-map.component';
     SwitchMapComponent,
     DebounceTimeComponent,
     TakeComponent,
-    MergeMapComponent
+    MergeMapComponent,
+    ConcatComponent
   ],
   imports: [
     BrowserModule,
